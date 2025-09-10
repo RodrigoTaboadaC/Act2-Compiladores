@@ -1,0 +1,5 @@
+if (numero > 0) { // Si el número es mayor que cero
+        std::cout << "El número es positivo." << std::endl;
+} else {
+        std::cout << "El número es menor que cero." << std::endl;
+}
