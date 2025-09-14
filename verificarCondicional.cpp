@@ -1,4 +1,3 @@
-// verificarCondicionales.cpp
 #include "verificarIdentificador.hpp"   // esIdentificadorValido
 #include "verificarDeclaracion.hpp"     // esNumero
 #include <vector>
@@ -7,7 +6,6 @@
 using namespace std;
 
 // if ( expr relop expr ) { ... } else { ... }
-// relop ∈ { <, >, ==, != }
 bool validarCondicional(const vector<string>& tokens, size_t& i) {
     size_t start = i;
     bool valido = true;
@@ -50,3 +48,4 @@ bool validarCondicional(const vector<string>& tokens, size_t& i) {
     cout << "Valido: Si cumple la gramatica condicional." << endl;
     return valido;
 }
+
