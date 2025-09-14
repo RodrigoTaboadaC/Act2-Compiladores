@@ -1,0 +1,7 @@
+int numero = 8 * 10;
+if (numero > 0) {
+        std::cout << "El número es positivo." << std::endl;
+
+} else {
+        std::cout << "El número es menor que cero." << std::endl;}
+
