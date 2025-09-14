@@ -92,9 +92,7 @@ int main() {
         return 0;
     }
     if (i == tokens.size()) {
-        cout << "Analisis completo OK." << endl;
-    } else {
-        cout << "Advertencia: Sobran tokens no analizados desde posicion " << i << "." << endl;
+        cout << "Analisis completado, cumple con todas las gramaticas" << endl;
     }
 
     return 0;
